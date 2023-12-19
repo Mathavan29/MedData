@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://www.gebauer.com/hubfs/medical-data-management.jpg');
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #f5f5f5; 
+  padding: 20px;
+  border-radius: 10px;
+  width:500px;
+}
+
+.form-wrapper {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+}
+
+.btn-submit {
+  background: #0513ce;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
